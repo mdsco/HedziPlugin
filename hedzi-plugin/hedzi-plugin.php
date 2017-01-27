@@ -20,7 +20,6 @@ function exampleMenu(){
 
 function twentysixteen_child_scripts(){
 
-	 // Register the script like this for a plugin:
     wp_register_script( 'extra js', plugins_url( '/js/extras2.js', __FILE__ ), array('jquery') );
 
 	wp_enqueue_script('extra js');
